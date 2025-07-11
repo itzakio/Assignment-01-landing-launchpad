@@ -115,7 +115,6 @@ main{
     border-radius: 25px;
     padding: 50px 140px;
     margin-bottom: 140px;
-
 }
 .productive-user .title{
     text-align: center;
@@ -167,8 +166,9 @@ main{
 }
 .card .user img{
     width: 50px;
+    border: 1px solid #000000;
     border-radius: 50%;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 .card .user-name{
     font-size: 14px;
@@ -177,6 +177,26 @@ main{
 }
 .card .date{
     font-size: 12px;
+}
+
+/* Focus styles */
+.focus{
+    padding: 70px 0;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.focus-subtitle{
+    margin: 20px 0;
+}
+.focus .btn{
+    margin-bottom: 20px;
+}
+.focus img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
 }
 
 
