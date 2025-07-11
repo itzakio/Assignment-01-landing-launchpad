@@ -35,7 +35,8 @@
 }
 .btn-primary:hover{
     background-color: #ff7300;
-    scale: 1.1;
+    color: #252432;
+    scale: 1.050;
 }
 
 *{
@@ -133,6 +134,51 @@ main{
 .font .info-name{
     font-size: 20px;
 }
+
+/* User Feedback styles */
+.user-feedback .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.user-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 140px;
+    
+}
+.card{
+    width: 365px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+}
+.card .stars{
+    margin-bottom:15px;
+}
+.card .user-feedback-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card .user{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+.card .user img{
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.card .user-name{
+    font-size: 14px;
+    margin-bottom: 5px;
+    
+}
+.card .date{
+    font-size: 12px;
+}
+
 
 /* Touch section styles */
 .touch-section{
