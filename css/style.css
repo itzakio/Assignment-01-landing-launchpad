@@ -26,9 +26,10 @@
     background-color: #4E47FF;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
+    font-weight: bold;
     color: #ffffff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 12px 36px;
     cursor: pointer;
     transition: all .3s;
@@ -66,7 +67,7 @@ nav{
 }
 .logo{
     font-size: 34px;
-    font-weight: 800;
+    font-weight: 900;
 }
 .title-container{
     max-width: 900px;
@@ -143,12 +144,14 @@ main{
     display: flex;
     justify-content: space-between;
     margin-bottom: 140px;
+
     
 }
 .card{
     width: 365px;
     background-color: #ffffff;
     padding: 25px;
+    border: 2px solid #F2EDED;
     border-radius: 10px;
 }
 .card .stars{
