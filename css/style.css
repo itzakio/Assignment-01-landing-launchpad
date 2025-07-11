@@ -15,6 +15,7 @@
 .color-1{color: #4E47FF;}
 .color-2{color: #252432;}
 .color-3{color: rgba(37, 36, 50, 0.5);}
+.color-4{color: #8987A1;}
 .all-section-title{
     font-size: 42px;
     font-weight: bold;
@@ -41,6 +42,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: rgb(78, 71, 255,.050);
 }
 
 /* Header styles */
@@ -161,4 +165,37 @@ form textarea{
     border: 2px solid rgba(37, 36, 50, 0.5);
     border-radius: 10px;
     margin: 5px 0 10px 0;
+}
+
+/* Footer Styles */
+footer{
+    background-color: #ffffff;
+
+}
+.footer-section{
+    max-width: 530px;
+    text-align: center;
+    padding: 100px auto;
+    padding: 100px 0 100px;
+    margin: 0 auto;
+}
+
+footer .website-name{
+    font-size: 100px;
+    font-weight: 800;
+}
+footer .subtitle{
+    padding: 8px 0 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #8987A1;
 }
